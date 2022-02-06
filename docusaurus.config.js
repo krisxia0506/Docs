@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/zkeq/Docs/',
+          editUrl: 'https://github.com/zkeq/Docs/tree/main/',
         },
         blog: false,
         theme: {
