@@ -1,2 +1,0 @@
-# Docs
- Docs.Icodeq.com
