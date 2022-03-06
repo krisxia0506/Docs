@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-function Music163({src}) {
+function Mv163({mid}) {
+  var m_url = '//music.163.com/outchain/player?type=2&id={mid}&auto=1&height=66'.replace('{mid}', mid);
   return (
     <>
       <iframe
-        src={src}
+        src={m_url}
         frameborder="no" 
         border="0" 
         marginwidth="0" 
@@ -17,4 +18,4 @@ function Music163({src}) {
 }
 
 
-export default Music163;
+export default Mv163;

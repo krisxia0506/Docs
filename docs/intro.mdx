@@ -4,8 +4,55 @@ sidebar_position: 1
 
 # Intro
 import Music163 from "@site/src/components/Music163";
+import Mv163 from "@site/src/components/Mv163";
+import WechatVideo from "@site/src/components/Wechat_Video";
+import BVideo from "@site/src/components/BiliBili_Video";
+import WeboV from "@site/src/components/Weibo_Video";
 
-<Music163 src="//music.163.com/outchain/player?type=2&id=1441443016&auto=1&height=66"/>
+### 网易云组件
+
+```js
+import Music163 from "@site/src/components/Music163";
+<Music163 mid="1441443016"/>
+```
+
+<Music163 mid="1441443016"/>
+
+### 网易MV组件
+
+```js
+import Mv163 from "@site/src/components/Mv163";
+<Mv163 vid="10968017"/>
+```
+
+<Mv163 vid="10968017"/>
+
+### 微信视频组件
+
+```js
+import WechatVideo from "@site/src/components/Wechat_Video";
+<WechatVideo wxv="2281672366986412045"/>
+```
+
+<WechatVideo wxv="2281672366986412045"/>
+
+### B站视频组件
+
+```js
+import BVideo from "@site/src/components/BiliBili_Video";
+<BVideo aid="254312390" bvid="BV19Y41137fy" cid="515765491"/>
+```
+
+<BVideo aid="254312390" bvid="BV19Y41137fy" cid="515765491"/>
+
+### 微博视频组件
+
+```js
+import WeboV from "@site/src/components/Weibo_Video";
+<WeboV uid="1239246050" cursor="4720854242429953" hd="0" />
+```
+
+<WeboV uid="1239246050" cursor="4720854242429953" hd="0" />
 
 #### 本文档主要分为两大部分 NEMT 和 Code 
 
